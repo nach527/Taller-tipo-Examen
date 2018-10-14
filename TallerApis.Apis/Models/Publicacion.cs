@@ -14,7 +14,7 @@ namespace TallerApis.Apis.Models
     public int MeGusta { get; set; }
     public int MeDisgusta { get; set; }
     public int VecesCompartido { get; set; }
-    public bool EsPrivado { get; set; }
+    public bool EsPrivado { get; set; } 
 
 
     }

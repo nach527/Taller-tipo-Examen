@@ -8,6 +8,10 @@ namespace TallerApis.Apis.Models
 {
     public class PublicacionesContext: DbContext
     {
+        public PublicacionesContext():base("PublicacionesConnection")
+        {
 
+        }
+        public DbSet<Publicacion> Publicaciones { get; set; }
     }
 }
