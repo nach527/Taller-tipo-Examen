@@ -194,7 +194,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Publicacion.cs" />
-    <Compile Include="Models\Publicaciones.cs" />
+    <Compile Include="Models\PublicacionesContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
